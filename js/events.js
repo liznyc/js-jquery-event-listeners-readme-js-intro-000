@@ -1,5 +1,5 @@
 function getIt(){
-  $('p').on("eventname", function(){
+  $('p').on('click', function(){
       alert("Hey!");//action you want taken
   });
 }
